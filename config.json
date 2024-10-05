@@ -1,12 +1,12 @@
 {
   "minItemValue": 1,
   "maxItemValue": 100000000000,
-  "smartAlgo": false,
-   "_comment": "Available tags are 'any', 'upgrade'. You can leave empty for no tags at all. For smart algo, it determines if the item requested is an upgrade/downgrade. Do not add upgrade/downgrade tag with it.",
+  "smartAlgo": true,
+   "_comment": "Available tags are 'upgrade'. You can leave empty for no tags at all. For smart algo, it determines if the item requested is an upgrade/downgrade. Do not add upgrade/downgrade tag with it.",
   "maxItemsSend": 4,
-  "minItemsSend": 4,
+  "minItemsSend": 3,
   "sendBlacklist": [""],
-  "RequestPercent": "-10",
+  "RequestPercent": "0",
   "_comment2": "This is for percent UNDER the actual value. For example, 200k, 20% under that is 160k, itll add items 160-200k.",
   "minDemand": 3,
   "_comment3": "0 = terrible, 1 = Low, 2 = Normal, 3 = High, 4 = Amazing"
